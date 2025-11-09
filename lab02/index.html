@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Skip to content link -->
+    <a href="#main-content">Skip to main content</a>
+
+    <!-- Header-->
+    <header>
+        <h1>Anshuman Sharma</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero / Intro Section -->
+    <section id="main-content">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I am a web development student. This is my personal portfolio website.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="My profile picture.jpeg" width="120" height="170" alt="Profile picture of Anshuman Sharma">
+        <p>I am a web developer with a focus on front-end design and user experience. I enjoy learning new technologies
+            and working on meaningfull projects.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <article>
+            <ul>
+                <li><strong>Portfolio Website:</strong> A personal one-page website to showcase your bio, skills, and
+                    contact details.</li>
+                <li><strong>Medium Clone:</strong> A simple blog layout that looks like Medium, built only with HTML and
+                    CSS.</li>
+                <li><strong>Birthday Card:</strong> A creative greeting card webpage designed with HTML structure and
+                    CSS styling.</li>
+                <li><strong>User Form:</strong> A form webpage with fields like name, email, and message for practicing
+                    form handling.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Technical Skills</h2>
+        <table border="1" cellpadding="5" cellspacing="5.8">
+            <thead align="center">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>HTML</td>
+                    <td>Learning</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>learning</td>
+                </tr>
+                <tr>
+                    <td>PYTHON</td>
+                    <td>Learning</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+
+            <br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 All rights reserved by Anshuman Sharma.</p>
+    </footer>
+
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+</body>
+
+</html>
