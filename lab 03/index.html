@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anshuman Sharma — Portfolio</title>
+
+    <!-- Simple modern font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="animate">
+            <div class="logo">
+                <span class="dot" aria-hidden="true"></span>
+                <span>Anshuman Sharma</span>
+            </div>
+
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section id="hero" class="animate">
+            <div class="hero-inner">
+                <div class="hero-left">
+                    <h1 class="hero-title">Hi, I'm <span class="navy-name">Anshuman</span></h1>
+                    <p class="hero-sub">
+                        Building simple and responsive web pages. <span class="role">Role: <span
+                                class="role-animate">Full Stack Developer</span></span>
+                    </p>
+
+                    <div class="cta">
+                        <button class="btn" onclick="location.href='#projects'">View Projects</button>
+                        <a class="btn secondary" href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="profile" aria-hidden="true">
+                        <img src="My profile picture.jpeg"
+                            alt="Profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="animate">
+            <h2>About</h2>
+            <p>I am a BTech (CSE - AI/ML) student learning web development. I make clean and responsive pages using
+                HTML, CSS (Flexbox & Grid) and basic JavaScript. This portfolio demonstrates layout skills, responsive
+                design and simple animations.</p>
+        </section>
+
+        <!-- Skills (Grid) -->
+        <section id="skills" class="animate">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <div>
+                        <strong>HTML & CSS</strong>
+                        <div class="muted-small">Responsive UI</div>
+                    </div>
+                    <div><small>★ ★ ★ ★</small></div>
+                </div>
+
+                <div class="skill">
+                    <div>
+                        <strong>Flexbox & Grid</strong>
+                        <div class="muted-small">Layout design</div>
+                    </div>
+                    <div><small>★ ★ ★ ★</small></div>
+                </div>
+
+                <div class="skill">
+                    <div>
+                        <strong>JavaScript</strong>
+                        <div class="muted-small">DOM & logic</div>
+                    </div>
+                    <div><small>★ ★ ★</small></div>
+                </div>
+
+                <div class="skill">
+                    <div>
+                        <strong>React (basic)</strong>
+                        <div class="muted-small">SPA concepts</div>
+                    </div>
+                    <div><small>★ ★ ★</small></div>
+                </div>
+
+                <div class="skill">
+                    <div>
+                        <strong>Git & GitHub</strong>
+                        <div class="muted-small">Version control</div>
+                    </div>
+                    <div><small>★ ★ ★ ★</small></div>
+                </div>
+
+                <div class="skill">
+                    <div>
+                        <strong>AI/ML basics</strong>
+                        <div class="muted-small">Model fundamentals</div>
+                    </div>
+                    <div><small>★ ★ ★</small></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects (Grid) -->
+        <section id="projects" class="animate">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <article class="project">
+                    <strong>Portfolio (this page)</strong>
+                    <small>HTML • CSS • Responsive</small>
+                    <p class="muted-paragraph">A single-page responsive portfolio that uses Flexbox, Grid, transitions
+                        and a keyframe animation.</p>
+                </article>
+
+                <article class="project">
+                    <strong>Gradebook Analyzer</strong>
+                    <small>Python • CSV</small>
+                    <p class="muted-paragraph">A lab project that reads student marks and computes grades and
+                        statistics.</p>
+                </article>
+
+                <article class="project">
+                    <strong>Line Follower Robot</strong>
+                    <small>Electronics • Arduino</small>
+                    <p class="muted-paragraph">Maker lab project with sensors, motor control and basic embedded code.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="animate">
+            <h2>Contact</h2>
+            <form action="#" method="post" aria-label="Contact form">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                <div class="form-actions">
+                    <button type="submit" class="btn">Send</button>
+                    <button type="reset" class="btn secondary">Reset</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="animate">
+            <div>© 2025 Anshuman Sharma</div>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
